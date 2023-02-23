@@ -1,0 +1,153 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+    <!-- Заголовок страницы в браузере -->
+    <title>Grid Layout - puppy edition</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Подключаем Icon    -->
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <!-- Кодировка страницы -->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- Отображаемое тело страницы -->
+
+<body>
+    <!-- Оболочка (grid-контейнер) -->
+    <div class="wrapper">
+        <!-- Шапка (grid - элемент) -->
+        <header class="header">
+            <a href="#" class="header__logo"></a>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li><a href="#" class="header__link">Пункт меню</a></li>
+                    <li><a href="#" class="header__link">Пункт меню</a></li>
+                    <li><a href="#" class="header__link">Пункт меню</a></li>
+                    <li><a href="#" class="header__link">Пункт меню</a></li>
+                </ul>
+            </nav>
+            <div class="header__burger"><span></span></div>
+        </header>
+        <!-- Контент (grid-элемент + grid-контейнер) -->
+        <main class="main">
+            <!-- Сайдбар (grid-элемент) -->
+            <aside class="sidebar">
+                <nav class="sidebar__menu">
+                    <ul class="sidebar__list">
+                        <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+                        <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+                        <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+                        <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+                        <li><a href="#" class="sidebar__link">Пункт меню</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- Контент (grid-элемент) -->
+            <section class="content">
+                <h1>Щенята</h1>
+                <section class="content__gallery gallery">
+                    <div class="gallery__items">
+                        <div class="gallery__item gallery__item_big">
+                            <img src="https://www.xtrafondos.com/en/descargar.php?id=5004&resolucion=3840x2160" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://s1.1zoom.me/b5050/310/Dogs_Puppy_Two_Winter_508028_3840x2160.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://free4kwallpapers.com/uploads/originals/2020/09/22/-dog-pet-fluffy-leaves-autumn-background-dual-wide-p-wallpaper.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://images5.alphacoders.com/466/466168.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://images.hdqwalls.com/wallpapers/french-bull-dog-4k-m5.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://i.pinimg.com/originals/74/98/16/7498164c1bcb17c112c9b41234a8c79c.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://free4kwallpapers.com/uploads/originals/2020/05/09/puppy-dog-wallpaper.jpg" alt="">
+                        </div>
+                        <div class="gallery__item gallery__item_big">
+                            <img src="https://images8.alphacoders.com/650/650205.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://s1.1zoom.me/b5050/310/Dogs_Puppy_Two_Winter_508028_3840x2160.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://www.xtrafondos.com/en/descargar.php?id=5004&resolucion=3840x2160" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/917/691/823/dark-dog-animals-portrait-wallpaper-preview.jpg" alt="">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="https://img5.goodfon.com/wallpaper/nbig/7/e3/sobaka-frantsuzskii-buldog-buldog-kravat-vzgl.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="content__products products">
+                    <h2 class="products__title">Товары</h2>
+                    <div class="products__items">
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="https://cdn.shopify.com/s/files/1/1721/0879/products/DinerDogTShirtAdultSmallFRONTLS.jpg?v=1631625360" alt="">
+                            </div>
+                            <a href="#" class="products__name">Футболка "Salts Diner"</a>
+                            <a href="#" class="products__button"><span>Купить</span></a>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="https://cdn.shopify.com/s/files/1/1721/0879/products/DinerDogTShirtAdultSmallFRONTLS.jpg?v=1631625360" alt="">
+                            </div>
+                            <a href="#" class="products__name">Футболка "Salts Diner"</a>
+                            <a href="#" class="products__button"><span>Купить</span></a>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="https://cdn.shopify.com/s/files/1/1721/0879/products/DinerDogTShirtAdultSmallFRONTLS.jpg?v=1631625360" alt="">
+                            </div>
+                            <a href="#" class="products__name">Футболка "Salts Diner"</a>
+                            <a href="#" class="products__button"><span>Купить</span></a>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="https://cdn.shopify.com/s/files/1/1721/0879/products/DinerDogTShirtAdultSmallFRONTLS.jpg?v=1631625360" alt="">
+                            </div>
+                            <a href="#" class="products__name">Футболка "Salts Diner"</a>
+                            <a href="#" class="products__button"><span>Купить</span></a>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="https://cdn.shopify.com/s/files/1/1721/0879/products/DinerDogTShirtAdultSmallFRONTLS.jpg?v=1631625360" alt="">
+                            </div>
+                            <a href="#" class="products__name">Футболка "Salts Diner"</a>
+                            <a href="#" class="products__button"><span>Купить</span></a>
+                        </div>
+                        <div class="products__item">
+                            <div class="products__image">
+                                <img src="https://cdn.shopify.com/s/files/1/1721/0879/products/DinerDogTShirtAdultSmallFRONTLS.jpg?v=1631625360" alt="">
+                            </div>
+                            <a href="#" class="products__name">Футболка "Salts Diner"</a>
+                            <a href="#" class="products__button"><span>Купить</span></a>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__copy">&copy; 2020</div>
+            <div class="footer__text">Lorem ipsum dolor sit amet.</div>
+        </footer>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
